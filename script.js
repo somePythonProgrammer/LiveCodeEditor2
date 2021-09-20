@@ -1,3 +1,4 @@
+openPage(event, 'OUTPUT');
 function showPreview(){
 	var htmlCode = document.getElementById("htmlCode").value;
 	var cssCode = "<style>" + document.getElementById("cssCode").value + "</style>";
